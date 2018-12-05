@@ -1,8 +1,8 @@
 <?php
 
-
+/*
 class Pessoa(){
-	public $nome = "Tiago";
+	 public $nome = "Tiago";
 	$idade = 27;
 	$sobrenome = array("Ribeiro","Santos");
 
@@ -15,3 +15,6 @@ class Pessoa(){
 
 $joao =  new Pessoa;
 joao.mostrarNome($nome);
+*/
+
+echo "oi";
