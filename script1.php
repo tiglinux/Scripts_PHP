@@ -1,20 +1,18 @@
 <?php
 
-/*
-class Pessoa(){
-	 public $nome = "Tiago";
-	$idade = 27;
-	$sobrenome = array("Ribeiro","Santos");
+$nome = "Tiago";
+$nomes = array("Ribeiro","Santos");
 
-	public function mostrarNome($nome){
-		echo "<strong>".$nome."</strong>"." "."</br>";
-		return 1;
-	}
+$ip = $_SERVER["REMOTE_ADDR"];
 
-}
+//Informa qual o tipo da variavel
+var_dump($nomes);
 
-$joao =  new Pessoa;
-joao.mostrarNome($nome);
-*/
+echo "</br>";
 
-echo "oi";
+//Imprime o indices do array e diz a quantidade de letras deste array
+print_r($nomes);
+
+echo "</BR>";
+
+echo "SEU IP é : ". "<b>".$ip."</b>";
